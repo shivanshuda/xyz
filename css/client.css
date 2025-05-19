@@ -1,0 +1,89 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.dashboard-container:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Profile Picture */
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-picture img:hover {
+    transform: scale(1.1);
+}
+
+/* User Info Blocks */
+.user-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.info-block {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.info-block:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+}
+
+/* Button Styling */
+.dashboard-actions {
+    margin-top: 20px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out, transform 0.2s, box-shadow 0.3s;
+    margin: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+}

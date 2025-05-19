@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./css/admin.css">
+</head>
+<body>
+    <header>
+        <h2>Admin Dashboard</h2>
+    </header>
+    
+    <main>
+        <section class="dashboard">
+            <h3>Welcome, <span id="adminName"></span></h3>
+            <p><strong>Email:</strong> <span id="adminEmail"></span></p>
+
+            <h3>All Users</h3>
+            <div id="userBlocks" class="user-container">
+                <!-- Dynamic user blocks will be inserted here -->
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/admin.js"></script>
+</body>
+</html>

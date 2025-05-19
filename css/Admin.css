@@ -1,0 +1,50 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Dashboard Section */
+.dashboard {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* User Blocks Container */
+.user-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Individual User Block */
+.user-block {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.user-block:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+}
+
+/* No Users Message */
+.no-users {
+    color: gray;
+    font-size: 18px;
+    margin-top: 20px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Dashboard</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <h2>Client Dashboard</h2>
+    </header>
+    
+    <main>
+        <div class="dashboard-container">
+            <!-- Profile Picture -->
+            <div class="profile-picture">
+                <img id="profileImage" src="./avatar-profile-icon-flat-style-male-user-profile-vector-illustration-isolated-background-man-profile-sign-business-concept_157943-38764.avif" alt="Profile Picture" width="150" height="150">
+            </div>
+
+            <!-- User Info Blocks -->
+            <div class="user-info">
+                <div class="info-block">
+                    <h3>Welcome, <span id="userName"></span></h3>
+                    <p><strong>Email:</strong> <span id="userEmail"></span></p>
+                    <p><strong>Role:</strong> <span id="userRole"></span></p>
+                </div>
+
+                <div class="info-block">
+                    <p><strong>Department:</strong> <span id="userDepartment"></span></p>
+                    <p><strong>Monthly Attendance:</strong> <span id="userAttendance"></span></p>
+                    <p><strong>Salary:</strong> <span id="userSalary"></span></p>
+                </div>
+
+                <div class="info-block">
+                    <p><strong>Contact:</strong> <span id="userContact"></span></p>
+                    <p><strong>Address:</strong> <span id="userAddress"></span></p>
+                    <p><strong>Joining Date:</strong> <span id="userJoiningDate"></span></p>
+                </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="dashboard-actions">
+                <button id="settingsBtn">Settings</button>
+                <button id="logoutBtn">Logout</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/client.js"></script>
+</body>
+</html>
+
